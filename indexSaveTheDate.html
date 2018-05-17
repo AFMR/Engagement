@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<html lang="en"> 
-	<link href="css/style.css" rel="stylesheet">
-	<script src="myscripts.js"></script>
+  <meta charset="utf-8">
+  <html lang="en"> 
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="content">
-  <a id="menu-button"></a>
-  <div id="hamburger-menu">
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Works</a>
-      <a href="">Contact</a>
-    </nav>
+<nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a href="#"><li>About us</li></a>
+      <a href="#"><li>Map</li></a>
+      <a href="#"><li>Details</li></a>
+      <a href="#"><li>Registry</li></a>
+    </ul>
   </div>
-  <div id="overlay"></div>
-</div>
+</nav>
   <h1 class="names">Karen & Alex</h1>
-		<p class="title">Save the date</p>
-		<button class="rsvp" type="button" onclick="alert('This event has ended')">RSVP</button>
-		<p class="date">January 13, 2018</p>
+    <p class="title">Save the date</p>
+    <button class="rsvp" type="button" onclick="alert('This event has ended')">RSVP</button>
+    <p class="date">January 13, 2018</p>
 
-	</div>
-	
+  </div>
+  
 </body>
 </html>
